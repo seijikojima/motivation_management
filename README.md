@@ -1,20 +1,11 @@
 # motivation_management
 
-## Project setup
-```
-npm install
-```
+## Home
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Plot
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## PiChart
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# motivation_management
+## BookLists
+
+## Applications
