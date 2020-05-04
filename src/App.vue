@@ -2,31 +2,41 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/plot">Plot</router-link> | 
+      <router-link to="/piechart">PieChart</router-link> | 
+      <router-link to="/booklists">BookLists</router-link> | 
+      <router-link to="/applications">Applications</router-link>
+
     </div>
     <router-view/>
   </div>
 </template>
 
 <style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin : 0px;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  font-family: Robot;
+  color: #343131;
 }
 
 #nav {
-  padding: 30px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 8px gray;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #343131;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #D00300;
 }
 </style>
