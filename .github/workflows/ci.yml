@@ -23,4 +23,4 @@ jobs:
         username: ${{ secrets.SERVER_USERNAME }}
         password: ${{ secrets.SERVER_PASSWORD }}
         script: |
-          cd ${{ secrets.PROJECT_PATH }} && git pull && npm i && npm run build
+          echo "hoge" && cd ${{ secrets.PROJECT_PATH }} && git pull && npm i && npm run build
