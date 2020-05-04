@@ -24,6 +24,6 @@ jobs:
         password: ${{ secrets.SERVER_PASSWORD }}
         script: |
           echo "hoge" && cd ${{ secrets.PROJECT_PATH }}
-	  git pull feature/add_register_form:feature/add_register_form # pull remote branch forcibly
-	  npm i && npm run build
-	  cp -a ./dist/* /var/www/html/
+          git pull feature/add_register_form:feature/add_register_form # pull remote branch forcibly
+          npm i && npm run build
+          cp -a ./dist/* /var/www/html/
